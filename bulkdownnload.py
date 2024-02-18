@@ -30,4 +30,4 @@ def download_images_from_api(search_query, download_path, per_page=10, total_ima
 if __name__ == "__main__":
     search_query = "German Shepherd"
     download_path = "German_Shepherd"
-    download_images_from_api(search_query, download_path, total_images=200)  # Ubah total_images sesuai kebutuhan Anda
+    download_images_from_api(search_query, download_path, total_images=200)  # change total image of you want to download
