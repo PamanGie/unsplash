@@ -2,7 +2,7 @@ import requests
 import os
 
 def download_images_from_api(search_query, download_path, per_page=10, total_images=30):
-    access_key = '1281953-0b9e012089e65c9f811e1315f'  # Ganti dengan Pixabay Access Key Anda
+    access_key = ''  # Ganti dengan Pixabay Access Key Anda
     total_downloaded = 0
     page = 1
 
