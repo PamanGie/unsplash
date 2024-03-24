@@ -30,4 +30,4 @@ def download_images_from_api(search_query, download_path, per_page=10, total_ima
 if __name__ == "__main__":
     search_query = "husky"
     download_path = "husky2"
-    download_images_from_api(search_query, download_path, total_images=10000)  # Ubah total image sesuai keinginan Anda
+    download_images_from_api(search_query, download_path, total_images=200)  # Ubah total image sesuai keinginan Anda
